@@ -1,0 +1,29 @@
+1. replace tables with divs - outer/framing, header, menu, content, footer.
+2. note - put your css path in .htaccess.
+
+<div class="header">
+<div style='width:600px'>
+	<img src="banner.png">
+</div>
+
+<div class="menu">
+	<div class="menu_item" id="home_div">
+		<a id="home_link" href="/home/index"><img id="home_img" src="images/home.png"></a>
+	</div>
+	<div class="menu_item">
+		<a href="/home/aboutus"><img src="images/aboutus.png"></a>
+	</div>
+	<div class="menu_item">
+		<a href="/home/candidates"><img src="images/candidates.png"></a>
+	</div>
+	<div class="menu_item">
+		<a href="/home/electedofficials"><img src="images/electedofficials.png"></a>
+	</div>
+	<div class="menu_item">
+		<a href="/home/resources"><img src="images/resources.png"></a>
+	</div>
+</div>
+
+</div>
+
+<div class="container">

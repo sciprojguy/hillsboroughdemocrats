@@ -1,0 +1,425 @@
+/* main page container for all of the DEC's site pages */
+
+.pageContainer {
+	width: 1080px;
+	height:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1B4565;
+	padding: 4px 4px 4px 4px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	behavior: url(css/border-radius.htc);
+}
+
+.header {
+	height: 80px;
+	width: 1020px;
+}
+
+/* news ticker */
+
+.TICKER {
+	overflow: hidden;
+	width: 1020px;
+	height: 20px;
+	text-color: lightblue;
+	text-decoration: none;
+}
+
+#TICKER a:link {
+	color: darkblue;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+#TICKER a:hover {
+	color: darkblue;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+#TICKER a:visited {
+	color: darkblue;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+/* default link colors */ 
+.contentBox a:link {
+	color: blue;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+.contentBox a:active {
+	color: blue;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+/*.contentBox a:hover {
+	color: #CF7718;
+	font-size: 12pt;
+	text-decoration: none;
+}*/
+
+.contentBox a:visited {
+	color: blue;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+
+/* main nav menu */
+
+.menu {
+	margin-right: 4px;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	background-color:black;
+	border: 2px solid #1B4565;
+}
+
+.menu A:link, A:visited {
+	color: white;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top:4px;
+	font-family: Helvetica;
+	font-size: 12pt;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.menu A:hover {
+	color: #CF7718;
+	font-family: Helvetica;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top:4px;
+	font-size: 12pt;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.leftMenu {
+	width: 180px;
+	margin-left: 8px;
+	margin-top: 1em;
+}
+
+.leftMenu A:link {
+	color: white;
+	font-family: Helvetica;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.leftMenu A:visited {
+	color: white;
+	font-family: Helvetica;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.mainColumn {
+	width: 100%;
+	color: black;
+	font-size: 11pt;
+}
+
+/* elements for microformats */
+.boxTitle {
+	font-family: "Helvetica";
+	font-weight: bold;
+}
+
+.boxContainer {
+	background-color: #1B4565;
+	color: white;
+	padding: 4px 4px 4px 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(css/border-radius.htc);
+}
+
+.boxPicture {
+	width: 200px;
+}
+
+.boxLead {
+	float: left;
+	font-family: "Helvetica";
+}
+
+.boxMore {
+	width: 100%;
+	text-align: right;
+}
+
+.boxMoreLink {
+	text-decoration: none;
+	color: white;
+	font-family: "Helvetica";
+}
+
+.bannerURL A:link {
+	text-decoration: none;
+	color: white;
+	font-family: "Helvetica, Arial, Sans-serif";
+	font-size: 10pt;
+}
+
+.bannerURL A:visited {
+	text-decoration: none;
+	color: white;
+	font-family: "Helvetica";
+	font-size: 10pt;
+}
+
+.eventsBoxContainer {
+	background-color: #888888;
+	width: 400px;
+	height: 400px;
+}
+
+.eventsBoxTitle {
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: 12pt;
+	text-align: center;
+}
+
+.contentBoxFrame {
+	background-color: lightgray;
+	margin: 4px 4px 4px 4px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	behavior: url(css/border-radius.htc);
+}
+
+.contentBox {
+	height: 832px;
+	background-color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 4px 4px 4px 4px;
+	padding: 8px 8px 8px 8px;
+	background-color: white;
+	overflow: auto;
+}
+
+.calendarBox {
+	height: 610px;
+	width:1010px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 4px 4px 4px 4px;
+	background-color: white;
+}
+
+.calendarBox  a:link {
+	text-decoration:none;
+	color:blue;
+}
+
+.calendarBox  a:visited {
+	text-decoration:none;
+	color:blue;
+}
+
+.calendarBox  a:active {
+	text-decoration:none;
+	color:blue;
+}
+
+.clubOrCaucus {
+	width: 320px;
+	float: left;
+	background-color: white;
+	margin-left: 2px;
+	margin-bottom: 6px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 2px;
+}
+
+.clubOrCaucus a.link {
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 9pt;
+	text-decoration:none;
+	color:blue;
+}
+	
+.clubOrCaucus a.visited {
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 9pt;
+	text-decoration:none;
+	color:blue;
+}
+
+.dividerBox {
+	float: left;
+	background-color: white;
+	padding-top: 8px;
+	margin-left: 2px;
+	margin-bottom: 6px;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 130px;
+	height: 180px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	align: center;
+	text-align: center;
+	height: 180px;
+}
+
+.electedBox {
+	float: left;
+	background-color: white;
+	padding-top: 8px;
+	margin-left: 2px;
+	margin-bottom: 6px;
+	width: 140px;
+	height: 180px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	align: center;
+	text-align: center;
+}
+
+.electedBox a:link {
+	color: blue;
+	font-size: 9pt;
+	text-decoration: none;
+}
+
+.electedBox a:active {
+	color: blue;
+	font-size: 9pt;
+	text-decoration: none;
+}
+
+/*.contentBox a:hover {
+	color: #CF7718;
+	font-size: 12pt;
+	text-decoration: none;
+}*/
+
+.electedBox a:visited {
+	color: blue;
+	font-size: 9t;
+	text-decoration: none;
+}
+
+.tinyLink {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+.form {
+	background-color:#DDDDDD;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+	padding-left:8px;
+	padding-right:8px;
+	margin-top:8px;
+	margin-bottom:8px;	
+}
+
+.dateWidget {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:10pt;
+	padding:8px 8px 8px 8px;
+	border:solid 1px lightgray;
+	overflow:auto;
+	height:250px;
+	width:289px;
+}
+
+.dateWidgetEvent {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:11pt;
+	padding-top:4px;
+	padding-bottom:4px;
+	overflow:ellipsis;
+}
+
+.dateWidgetEvent a:link,a:visited,a:active {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:11pt;
+}
+
+.dateWidgetDayLabel {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	padding-top:4px;
+	padding-bottom:4px;
+	text-align:center;
+	background-color:#EEEEEE;
+}
+
+.dateWidgetDayLabel a:link,a:visited,a:active {
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top:4px;
+	padding-bottom:4px;
+	font-size:10pt;
+}
+
+.titleBanner {
+	width:100%;
+	background-color:lightgray;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom:4px;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size:14pt;
+	text-align:center;
+}
+
+.formField {
+	background-color:#DDDDDD;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10pt;	
+}
+
+.formField2 {
+	color:black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10pt;	
+}
+
+.formMenu {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12pt;	
+}
+
+.identityBox {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+}
+
+.errors {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10pt;	
+	color:red;	
+}
+
+.newsWidget {
+}
